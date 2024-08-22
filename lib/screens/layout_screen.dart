@@ -24,13 +24,15 @@ class LayoutScreen extends StatelessWidget {
                 width: 30,
                 height: 30,
               ),
-              Text(
-                'Margalaksana',
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.black,
-                  fontFamily: 'SFUi',
-                  fontWeight: FontWeight.w700,
+              Container(
+                child: Text(
+                  'Margalaksana',
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                    fontFamily: 'SFUi',
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
               SizedBox(
